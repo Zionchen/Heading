@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7415469F1AB2B259005547BA /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 7415469E1AB2B259005547BA /* location.png */; };
 		7472ADD41AB281C400E8520B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7472ADD31AB281C400E8520B /* main.m */; };
 		7472ADD71AB281C400E8520B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7472ADD61AB281C400E8520B /* AppDelegate.m */; };
 		7472ADDA1AB281C400E8520B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7472ADD91AB281C400E8520B /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		7472ADDF1AB281C400E8520B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7472ADDE1AB281C400E8520B /* Images.xcassets */; };
 		7472ADE21AB281C400E8520B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7472ADE01AB281C400E8520B /* LaunchScreen.xib */; };
 		7472ADEE1AB281C400E8520B /* HeadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7472ADED1AB281C400E8520B /* HeadingTests.m */; };
+		7472ADF81AB2823600E8520B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7472ADF71AB2823600E8520B /* CoreLocation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7415469E1AB2B259005547BA /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = location.png; path = ../../../../Desktop/location.png; sourceTree = "<group>"; };
 		7472ADCE1AB281C400E8520B /* Heading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7472ADD21AB281C400E8520B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7472ADD31AB281C400E8520B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +43,7 @@
 		7472ADE71AB281C400E8520B /* HeadingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeadingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7472ADEC1AB281C400E8520B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7472ADED1AB281C400E8520B /* HeadingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadingTests.m; sourceTree = "<group>"; };
+		7472ADF71AB2823600E8520B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7472ADF81AB2823600E8520B /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +68,7 @@
 		7472ADC51AB281C400E8520B = {
 			isa = PBXGroup;
 			children = (
+				7472ADF71AB2823600E8520B /* CoreLocation.framework */,
 				7472ADD01AB281C400E8520B /* Heading */,
 				7472ADEA1AB281C400E8520B /* HeadingTests */,
 				7472ADCF1AB281C400E8520B /* Products */,
@@ -96,6 +102,7 @@
 		7472ADD11AB281C400E8520B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7415469E1AB2B259005547BA /* location.png */,
 				7472ADD21AB281C400E8520B /* Info.plist */,
 				7472ADD31AB281C400E8520B /* main.m */,
 			);
@@ -199,6 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7415469F1AB2B259005547BA /* location.png in Resources */,
 				7472ADDD1AB281C400E8520B /* Main.storyboard in Resources */,
 				7472ADE21AB281C400E8520B /* LaunchScreen.xib in Resources */,
 				7472ADDF1AB281C400E8520B /* Images.xcassets in Resources */,
@@ -412,6 +420,7 @@
 				7472ADF31AB281C400E8520B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7472ADF41AB281C400E8520B /* Build configuration list for PBXNativeTarget "HeadingTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +429,7 @@
 				7472ADF61AB281C400E8520B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
